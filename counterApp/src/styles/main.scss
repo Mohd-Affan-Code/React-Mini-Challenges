@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .counter {
+      text-align: center;
+
+      h1 {
+        font-size: 50px;
+      }
+
+      button {
+        margin: 8px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        font-size: 23px;
+      }
+
+      .increment {
+        background-color: rgba(4, 70, 4, 0.71);
+        color: white;
+      }
+
+      .reset {
+        background-color: rgb(183, 46, 46);
+        color: white;
+      }
+      .decrement {
+        background-color: rgb(170, 191, 11);
+        color: white;
+      }
+    }
+  }
+
+}
